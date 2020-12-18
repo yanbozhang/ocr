@@ -1,0 +1,138 @@
+﻿生成启动时间为 2020/11/8 20:30:39。
+     1>项目“E:\POP_test\POP_test\POP_test.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\POP_test.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\POP_test.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\POP_test.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\POP_test.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CameraDS.cpp CvvImage.cpp POP_test.cpp POP_testDlg.cpp
+         POP_testDlg.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\tesseract-ocr\include\tesseract\strngs.h(61): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>d:\tesseract-ocr\include\tesseract\unicharset.h(47): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>d:\tesseract-ocr\include\tesseract\unicharset.h(274): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\tesseract-ocr\include\tesseract\unicharset.h(299): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(268): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(293): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(295): warning C4244: “参数”: 从“__int64”转换到“float”，可能丢失数据
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(297): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(299): warning C4244: “参数”: 从“__int64”转换到“float”，可能丢失数据
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(302): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(308): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 e:\pop_test\pop_test\pop_testdlg.cpp(302) : 忽略“i”的定义
+                 e:\pop_test\pop_test\pop_testdlg.cpp(266) : 使用“i”的定义
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(311): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(326): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(352): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(354): warning C4244: “参数”: 从“__int64”转换到“float”，可能丢失数据
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(356): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(358): warning C4244: “参数”: 从“__int64”转换到“float”，可能丢失数据
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(361): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(367): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 e:\pop_test\pop_test\pop_testdlg.cpp(361) : 忽略“i”的定义
+                 e:\pop_test\pop_test\pop_testdlg.cpp(324) : 使用“i”的定义
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(370): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(385): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(417): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(508): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(509): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(522): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(527): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(532): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(537): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(554): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(555): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(556): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(557): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(558): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(558): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(558): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(558): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(644): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\time.inl(99) : 参见“gmtime”的声明
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(646): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(761): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(971): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(986): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(996): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(249) : 参见“freopen”的声明
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(997): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(249) : 参见“freopen”的声明
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(998): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(249) : 参见“freopen”的声明
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(1090): warning C4309: “=”: 截断常量值
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(1095): warning C4244: “=”: 从“time_t”转换到“int”，可能丢失数据
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(1098): warning C4309: “=”: 截断常量值
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(1124): warning C4309: “=”: 截断常量值
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(1130): warning C4309: “=”: 截断常量值
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(1155): warning C4309: “=”: 截断常量值
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(1159): warning C4309: “=”: 截断常量值
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(1025): warning C4101: “info_rec”: 未引用的局部变量
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(1197): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         POP_test.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\tesseract-ocr\include\tesseract\strngs.h(61): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>d:\tesseract-ocr\include\tesseract\unicharset.h(47): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>d:\tesseract-ocr\include\tesseract\unicharset.h(274): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\tesseract-ocr\include\tesseract\unicharset.h(299): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+         CvvImage.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+         CameraDS.cpp
+     1>e:\pop_test\pop_test\camerads.cpp(160): warning C4101: “pSpec”: 未引用的局部变量
+         正在生成代码...
+     1>e:\pop_test\pop_test\pop_testdlg.cpp(562): warning C4715: “detecMark”: 不是所有的控件路径都返回值
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\POP_test.res" POP_test.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\POP_test.exe.embed.manifest.res" Debug\POP_test_manifest.rc 
+       Link:
+         d:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\POP_test\Debug\POP_test.exe" /INCREMENTAL /NOLOGO opencv_ml2410d.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_objdetect2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_nonfree2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_videostab2410d.lib opencv_objdetect2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_nonfree2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_videostab2410.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib /MANIFEST /ManifestFile:"Debug\POP_test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\POP_test\Debug\POP_test.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\POP_test\Debug\POP_test.lib" /MACHINE:X86 Debug\POP_test.res
+         Debug\POP_test.exe.embed.manifest.res
+         Debug\CameraDS.obj
+         Debug\CvvImage.obj
+         Debug\POP_test.obj
+         Debug\POP_testDlg.obj
+         Debug\stdafx.obj
+       Manifest:
+         正在删除文件“Debug\POP_test.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\POP_test.exe.embed.manifest" /manifest Debug\POP_test.exe.intermediate.manifest d:\VS2010\VC\Include\Manifest\dpiaware.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\POP_test.exe.embed.manifest.res" Debug\POP_test_manifest.rc 
+       LinkEmbedManifest:
+         d:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\POP_test\Debug\POP_test.exe" /INCREMENTAL /NOLOGO opencv_ml2410d.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_objdetect2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_nonfree2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_videostab2410d.lib opencv_objdetect2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_nonfree2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_videostab2410.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib /MANIFEST /ManifestFile:"Debug\POP_test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\POP_test\Debug\POP_test.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\POP_test\Debug\POP_test.lib" /MACHINE:X86 Debug\POP_test.res
+         Debug\POP_test.exe.embed.manifest.res
+         Debug\CameraDS.obj
+         Debug\CvvImage.obj
+         Debug\POP_test.obj
+         Debug\POP_testDlg.obj
+         Debug\stdafx.obj
+         POP_test.vcxproj -> E:\POP_test\Debug\POP_test.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\POP_test.unsuccessfulbuild”。
+         正在对“Debug\POP_test.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\POP_test\POP_test\POP_test.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:15.11
